@@ -3,12 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#131111"
     android:layout_height="match_parent"
     tools:context=".DetailsActivity">
+
 
     <TextView
         android:id="@+id/nameText"
         android:layout_width="229dp"
+        android:textColor="@color/white"
         android:layout_height="49dp"
         android:layout_marginTop="24dp"
         android:text="LandMark Name"
@@ -23,6 +26,8 @@
         android:layout_height="49dp"
         android:layout_marginTop="24dp"
         android:text="LandMark Country"
+        android:textColor="@color/white"
+
         android:textAlignment="center"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"

@@ -24,12 +24,21 @@ class MainActivity : AppCompatActivity() {
         val EylulKitabi =Landmark("Eylül","Mehmet Rauf",R.drawable.eylul)
         val Tutunamayanlar = Landmark("Tutunamayanlar","Oğuz Atay",R.drawable.tutunamayanlar)
 
+        val hayvanmezarligi= Landmark("Hayvan Mezarlıgı", "Stephen King",R.drawable.hayvanmezarligi)
+        val sefiller =Landmark("Sefiller","Victor Hugo", R.drawable.sefiller)
+        val sucveceza=Landmark("Suç ve Ceza","Dostoyevski",R.drawable.sucveceza)
+
+
+
 
 
 
 
         landmarkList.add(EylulKitabi)
         landmarkList.add(Tutunamayanlar)
+        landmarkList.add(hayvanmezarligi)
+        landmarkList.add(sefiller)
+        landmarkList.add(sucveceza)
 
 
         val landmarkAdapter =LandmarkAdapter(landmarkList)
